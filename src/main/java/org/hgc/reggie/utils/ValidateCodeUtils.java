@@ -1,4 +1,4 @@
-package com.fafa.reggie.utils;
+package org.hgc.reggie.utils;
 
 import java.util.Random;
 

@@ -1,16 +1,12 @@
-package com.harmony.reggie.entity;
+package org.hgc.reggie.entity;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.time.LocalDateTime;
 
 @Data
-@Setter
-@Getter
 public class Employee {
 
     // serialVersionUID用作Serializable类中的版本控件
@@ -42,6 +38,7 @@ public class Employee {
     private LocalDateTime updateTime;
 
     // MP中用于标识非主键的字段。将数据库列与 JavaBean 中的属性进行映射，
+    // 公共字段自动填充
     // fill 字段填充标记，表示在插入时自动填充
     @TableField(fill = FieldFill.INSERT)  // 插入时填充字段
     private Long createUser;

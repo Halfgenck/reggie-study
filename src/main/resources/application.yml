@@ -1,0 +1,44 @@
+server:
+  port: 8080
+  #考虑get请求头过大，而tomcat的header缓存区又过小
+  tomcat:
+    max-http-form-post-size: 81920
+spring:
+  application:
+    name: reggie
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+      username: root
+      password: root
+
+    # 邮箱配置
+    mail:
+      host: smtp.qq.com  # 发送邮件的服务器地址
+      username: 1228688831@qq.com # 登录qq邮箱的账号
+      password: ???  # 开启 IMAP/SMTP服务 获得的授权码,而不是qq邮箱的登录密码
+      default-encoding: UTF-8
+    # redis配置
+    redis:
+      host: 192.168.126.12 # 本地IP 或是 虚拟机IP
+      port: 6379
+      #    password: root
+      database: 0  # 默认使用 0号db
+      cache:
+        redis:
+          time-to-live: 1800000  # 设置缓存数据的过期时间，30分钟
+
+
+mybatis-plus:
+  configuration:
+    # 在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射 ！！！
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: ASSIGN_ID
+
+# 指定上传下载文件的缓存路径
+reggie:
+  path: D:\images\

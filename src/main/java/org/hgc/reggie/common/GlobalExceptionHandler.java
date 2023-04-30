@@ -1,4 +1,4 @@
-package com.harmony.reggie.common;
+package org.hgc.reggie.common;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
@@ -40,7 +40,6 @@ public class  GlobalExceptionHandler {
     @ExceptionHandler(CustomException.class)
     public R<String> exceptionHandler(CustomException ex){
         log.error(ex.getMessage());
-
         return R.error(ex.getMessage());
     }
 }

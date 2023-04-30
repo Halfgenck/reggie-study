@@ -1,8 +1,8 @@
-package com.fafa.reggie.mapper;
+package org.hgc.reggie.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.fafa.reggie.entity.User;
 import org.apache.ibatis.annotations.Mapper;
+import org.hgc.reggie.entity.User;
 import org.springframework.stereotype.Repository;
 
 @Mapper

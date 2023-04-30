@@ -1,4 +1,4 @@
-package com.harmony.reggie.entity;
+package org.hgc.reggie.entity;
 
 import lombok.Data;
 import java.io.Serializable;

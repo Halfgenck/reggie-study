@@ -1,8 +1,9 @@
-package com.harmony.reggie.dto;
+package org.hgc.reggie.dto;
 
-import com.harmony.reggie.entity.Setmeal;
-import com.harmony.reggie.entity.SetmealDish;
 import lombok.Data;
+import org.hgc.reggie.entity.Setmeal;
+import org.hgc.reggie.entity.SetmealDish;
+
 import java.util.List;
 
 @Data

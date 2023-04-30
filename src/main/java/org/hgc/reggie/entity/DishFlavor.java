@@ -1,4 +1,4 @@
-package org.hgc.reggie.controller;
+package org.hgc.reggie.entity;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;

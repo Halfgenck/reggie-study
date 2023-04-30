@@ -1,4 +1,4 @@
-package com.harmony.reggie.common;
+package org.hgc.reggie.common;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

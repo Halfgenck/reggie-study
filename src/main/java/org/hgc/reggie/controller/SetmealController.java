@@ -1,4 +1,4 @@
-package org.hgc.reggie.common.controller;
+package org.hgc.reggie.controller;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import lombok.extern.slf4j.Slf4j;

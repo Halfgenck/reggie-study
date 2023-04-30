@@ -1,7 +1,7 @@
-package com.fafa.reggie.service;
+package org.hgc.reggie.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.fafa.reggie.entity.User;
+import org.hgc.reggie.entity.User;
 
 public interface UserService extends IService<User> {
     /**

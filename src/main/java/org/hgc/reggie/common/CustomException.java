@@ -1,4 +1,4 @@
-package com.harmony.reggie.common;
+package org.hgc.reggie.common;
 
 /**
  * 自定义业务异常类

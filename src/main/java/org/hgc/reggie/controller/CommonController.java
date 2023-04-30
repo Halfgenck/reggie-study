@@ -1,4 +1,4 @@
-package org.hgc.reggie.common.controller;
+package org.hgc.reggie.controller;
 
 import org.hgc.reggie.common.R;
 import org.springframework.beans.factory.annotation.Value;

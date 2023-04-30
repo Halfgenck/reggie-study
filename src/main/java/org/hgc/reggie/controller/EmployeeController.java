@@ -1,4 +1,4 @@
-package org.hgc.reggie.common.controller;
+package org.hgc.reggie.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 

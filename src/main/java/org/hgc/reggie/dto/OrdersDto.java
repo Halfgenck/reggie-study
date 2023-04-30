@@ -1,8 +1,9 @@
-package com.harmony.reggie.dto;
+package org.hgc.reggie.dto;
 
-import com.harmony.reggie.entity.OrderDetail;
-import com.harmony.reggie.entity.Orders;
 import lombok.Data;
+import org.hgc.reggie.entity.OrderDetail;
+import org.hgc.reggie.entity.Orders;
+
 import java.util.List;
 
 @Data

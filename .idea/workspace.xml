@@ -5,15 +5,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0806d7d4-ee9b-42e9-a659-6fb84caab35f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/ReggieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/ReggieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/common/BaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/common/BaseContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/common/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/common/CustomException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/common/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/common/JacksonObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/common/JacksonObjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/common/MyMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/common/MyMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/common/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/AddressBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/AddressBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/SetmealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/dto/DishDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/dto/DishDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/dto/OrdersDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/dto/OrdersDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/dto/SetmealDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/dto/SetmealDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/AddressBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/DishFlavor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/DishFlavor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/Setmeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/Setmeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/SetmealDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/SetmealDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/filter/LoginCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/AddressBookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/AddressBookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/DishFlavorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/DishFlavorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/DishMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/DishMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/SetmealDishMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/SetmealDishMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/SetmealMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/SetmealMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/AddressBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/AddressBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/DishFlavorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/DishFlavorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/DishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/SetmealDishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/SetmealDishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/SetmealService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/AddressBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/AddressBookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/DishFlavorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/SetmealDishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/SetmealDishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/utils/ValidateCodeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hgc/reggie/utils/ValidateCodeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -24,22 +94,95 @@
     </option>
   </component>
   <component name="ProjectId" id="2P124EvglUwQretdDwUCAajFD7Z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Problems",
+    "last_opened_file_path": "E:/projects/reggie/src/main/java/org/hgc/reggie/service/impl",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "spring.configuration.checksum": "3acf5c7b740d6e2538f3a7b88cf069b3"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "11968f16-b6d1-49e5-bb50-4365e6aa4315",
+      "11968f16-b6d1-49e5-bb50-4365e6aa4315/schema/\"reggie\""
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.hgc.reggie.mapper" />
+      <recent name="org.hgc.reggie.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\reggie\src\main\java\org\hgc\reggie\service\impl" />
+      <recent name="E:\projects\reggie\src\main\java\org\hgc\reggie\service" />
+      <recent name="E:\projects\reggie\src\main\java\org\hgc\reggie\mapper" />
+      <recent name="E:\projects\reggie\src\main\java\org\hgc\reggie\entity" />
+      <recent name="E:\projects\reggie\src\main\java\org\hgc\reggie\controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\projects\reggie\src\main\resources" />
+      <recent name="E:\projects\reggie\src\main\java\org\hgc\reggie\db" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.hgc.reggie.service" />
+      <recent name="org.hgc.reggie.mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ReggieApplication">
+    <configuration name="db.reggie.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/java/org/hgc/reggie/db.reggie.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="11968f16-b6d1-49e5-bb50-4365e6aa4315" namespace="schema/&quot;reggie&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ReggieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="reggie" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hgc.reggie.ReggieApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hgc.reggie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ReggieApplication" />
+        <item itemvalue="Database Script.db.reggie.sql" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,9 +191,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682610073883</updated>
-      <workItem from="1682610075523" duration="1000" />
+      <workItem from="1682610075523" duration="9216000" />
+      <workItem from="1682684685716" duration="11444000" />
+      <workItem from="1682771412645" duration="15146000" />
+      <workItem from="1682786750799" duration="23000" />
+      <workItem from="1682833949121" duration="642000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

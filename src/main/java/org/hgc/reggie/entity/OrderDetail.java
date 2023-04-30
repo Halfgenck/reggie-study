@@ -1,4 +1,4 @@
-package com.harmony.reggie.entity;
+package org.hgc.reggie.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

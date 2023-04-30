@@ -1,4 +1,4 @@
-package org.hgc.reggie.common.controller;
+package org.hgc.reggie.controller;
 
 /**
  * @author hgc

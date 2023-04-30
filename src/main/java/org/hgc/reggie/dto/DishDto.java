@@ -1,8 +1,9 @@
-package com.harmony.reggie.dto;
+package org.hgc.reggie.dto;
 
-import com.harmony.reggie.entity.Dish;
-import com.harmony.reggie.entity.DishFlavor;
 import lombok.Data;
+import org.hgc.reggie.entity.Dish;
+import org.hgc.reggie.entity.DishFlavor;
+
 import java.util.ArrayList;
 import java.util.List;
 
